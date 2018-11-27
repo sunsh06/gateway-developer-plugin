@@ -35,6 +35,12 @@ public class PropertyConstants {
     public static final String PROPERTY_TAG = "tag";
     public static final String PROPERTY_SUBTAG = "subtag";
     
+    public static final String KEY_VALUE_SOAP = "soap";
+    public static final String KEY_VALUE_SOAP_VERSION = "soapVersion";
+    public static final String KEY_VALUE_WSS_PROCESSING_ENABLED = "wssProcessingEnabled";
+    public static final String TAG_VALUE_POLICY = "policy";
+    public static final String TAG_VALUE_WSDL = "wsdl";
+    
     // JMS Destination property constants
     public static final String DESTINATION_TYPE = "type"; // Topic or Queue
     public static final String REPLY_TYPE = "replyType";
@@ -50,6 +56,6 @@ public class PropertyConstants {
     public static final String JNDI_USERNAME = "java.naming.security.principal";
     public static final String JNDI_PASSWORD = "java.naming.security.credentials";
     public static final String CONNECTION_FACTORY_NAME = "queue.connectionFactoryName";
-    
+     
     private PropertyConstants() { }
 }
